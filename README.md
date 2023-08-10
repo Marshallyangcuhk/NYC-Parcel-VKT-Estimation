@@ -3,7 +3,7 @@
 This repository gives the code and data involved in the process of estimating the New York City parcel delivery service induced vehicle-kilometer-traveled (VKT). This project first estimate the number of residential parcels generated from the whole NYC area. Figure 1 illustrate the daily delivery volume distribution across the whole city by census tract.
 
 <p align="center">
-  <img src="https://github.com/BUILTNYU/NYC-Parcel-VKT-Estimation/blob/main/Figure/volume.png",width="600" height="400">
+  <img src="Figure/volume.png",width="600" height="400">
   <br>
   <em>Figure 1. NYC daily residential parce delivery volume.</em>
 </p>
@@ -11,7 +11,7 @@ This repository gives the code and data involved in the process of estimating th
 After getting the result, volume and stops information for Amazon, Fedex, UPS, and USPS are generated. The distribution center information is obtained from July, 2022 and the corresponding service areas are estimated based on shortest distance. Figure 2 presents the facility locations and their corresponding service areas.
 
 <p align="center">
-  <img src="https://github.com/BUILTNYU/NYC-Parcel-VKT-Estimation/blob/main/Figure/area.png",width="600" height="600">
+  <img src="Figure/area.png",width="600" height="600">
   <br>
   <em>Figure 2. Service Area of (a) USPS, (b) UPS, (c) FedEx, and (d) Amazon defined by census tract.</em>
 </p>
@@ -19,7 +19,7 @@ After getting the result, volume and stops information for Amazon, Fedex, UPS, a
 We fit a continous approximation (CA) model to estimate the area-level VKT based on the stops information without generating detailed delivery tours for every stops. By applying the fitted CA model, the city level and area-level VKT can be estimated. Figure 3 shows the VKT density by Neighborhood Tabulation Areas.
 
 <p align="center">
-  <img src="https://github.com/BUILTNYU/NYC-Parcel-VKT-Estimation/blob/main/Figure/VKT.png",width="600" height="600">
+  <img src="Figure/VKT.png",width="600" height="600">
   <br>
   <em>Figure 3. Average daily total VKT per squared kilometer by NTA.</em>
 </p>
@@ -27,7 +27,7 @@ We fit a continous approximation (CA) model to estimate the area-level VKT based
 The parcel information is also used to evaluate the impact of potential E-cargo bike deployment. Figure 4 is a result of the potential VKT reduction by replacing some trucks with cargo bikes.
 
 <p align="center">
-  <img src="https://github.com/BUILTNYU/NYC-Parcel-VKT-Estimation/blob/main/Figure/bike.png",width="300" height="600">
+  <img src="Figure/bike.png",width="300" height="600">
   <br>
   <em>Figure 4. Workflow of the FD simulator process.</em>
 </p>
